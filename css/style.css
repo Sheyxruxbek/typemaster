@@ -1,0 +1,293 @@
+/* barlow-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/barlow-v12-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* barlow-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/barlow-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* barlow-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/barlow-v12-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html, body {
+    height: 100%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+  
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "manrope", sans-serif;
+    font-size: 1.6rem;
+    color: #333333;
+    line-height: 1.625;
+    font-weight: 400;
+}
+  
+.container {
+    width: 100%;
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.btn{
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    border: 0;
+    background: #E8EFF2;
+}
+
+.btn:hover{
+    background: #162542;
+    color: white;
+}
+
+.btn1{
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    border: 0;
+    background: #F16718;
+    color: #fff;
+}
+
+.btn1:hover{
+    background-color: #FF9B62;
+}
+
+.btn3{
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    border: 0;
+    background: #fff;
+    color: #000;
+}
+
+.footer{
+    color: #7B8BAD;
+}
+
+
+
+
+.header-container {
+}
+
+.header {
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+}
+.hero {
+    display: flex;
+    padding-top: 83px;
+}
+.hero-status {
+}
+
+.status {
+    padding-top: 60px;
+    padding-right: 125px;
+    display: block;
+    flex-direction: row;
+}
+
+.status h1{
+    font-family: Barlow;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.status p{
+    padding-top: 24px;
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.button2 {
+    padding-top: 40px;
+}
+
+.hero2 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.mwk{
+    width: 200px;
+    height: 265px;
+}
+
+.mwk h2{
+    padding-left: 125px;
+    padding-top: 120px;
+    font-family: Barlow;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+
+.mwk p{
+    padding-left: 125px;
+    font-family: Barlow;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mac{
+    padding-left: 30px;
+}
+.support {
+    padding-top: 168px;
+    display: flex;
+    gap: 30px;
+}
+.display h5{
+    padding-top: 48px;
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+
+.display p{
+    padding-top: 24px;
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+
+
+}
+.bluetooth h5{
+    padding-top: 48px;
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.bluetooth p{
+    padding-top: 24px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+
+}
+.battery h5{
+    padding-top: 48px;
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.battery p{
+    padding-top: 24px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.light h5{
+    padding-top: 48px;
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.light p{
+    padding-top: 24px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+    
+}
+.footer h4{
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    color: #7b8bad;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
